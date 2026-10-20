@@ -1,0 +1,12 @@
+import React from 'react'
+
+type Props = {}
+
+export default function Card({}: Props) {
+  return (
+    <div className='card'>
+        <h2>Susi</h2>
+        <img src="https://picsum.photos/id/1/200/300" alt="Hero" />
+    </div>
+  )
+}
