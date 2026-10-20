@@ -14,3 +14,8 @@ display: flex;
 gap: 4px;
 
 }
+.Football{
+    border-style: solid;
+    border-color: green;
+    padding: 1rem;
+}

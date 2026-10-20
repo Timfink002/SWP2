@@ -1,10 +1,10 @@
-﻿import { useState } from 'react'
-import './App.css'
-import Card from './Card'
+﻿import './App.css'
+import Card from './Components/Card';
+import Football from './Components/football';
+import football from './Components/football';
+
 
 function App() {
-  const [count,setCount] = useState(0)
-
   return (
     <>  
  <h1>Willkommen</h1>
@@ -15,7 +15,17 @@ function App() {
   <Card/>
   <Card/>
  </div>
+<div className='football'>
 
+<Football/>
+<Football/>
+<Football/>
+<Football/>
+<Football/>
+<Football/>
+
+  
+</div>
 
 
     </>
